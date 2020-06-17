@@ -1,0 +1,10 @@
+import { TestBed } from '@angular/core/testing';
+import { AuthUserService } from './auth-user.service';
+describe('AuthUserService', () => {
+    beforeEach(() => TestBed.configureTestingModule({}));
+    it('should be created', () => {
+        const service = TestBed.get(AuthUserService);
+        expect(service).toBeTruthy();
+    });
+});
+//# sourceMappingURL=auth-user.service.spec.js.map
