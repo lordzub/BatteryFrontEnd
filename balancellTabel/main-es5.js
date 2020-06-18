@@ -1122,7 +1122,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, AuthUserService);
 
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/auth';
+        this.url = '//127.0.0.1:4000/api/auth';
       }
 
       _createClass(AuthUserService, [{
@@ -1193,7 +1193,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, BatteriesService);
 
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/battery';
+        this.url = '//127.0.0.1:4000/api/battery';
       }
 
       _createClass(BatteriesService, [{
@@ -1834,7 +1834,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, MachinesService);
 
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/machines';
+        this.url = '//127.0.0.1:4000/api/machines';
       }
 
       _createClass(MachinesService, [{

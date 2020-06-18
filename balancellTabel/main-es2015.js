@@ -561,7 +561,7 @@ __webpack_require__.r(__webpack_exports__);
 let AuthUserService = class AuthUserService {
     constructor(http) {
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/auth';
+        this.url = '//127.0.0.1:4000/api/auth';
     }
     Login(username, password) {
         return this.http.post(this.url, { username: username, password: password });
@@ -599,7 +599,7 @@ __webpack_require__.r(__webpack_exports__);
 let BatteriesService = class BatteriesService {
     constructor(http) {
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/battery';
+        this.url = '//127.0.0.1:4000/api/battery';
     }
     getBatteries() {
         return this.http.get(this.url);
@@ -1052,7 +1052,7 @@ __webpack_require__.r(__webpack_exports__);
 let MachinesService = class MachinesService {
     constructor(http) {
         this.http = http;
-        this.url = '//127.0.0.1:8080/api/machines';
+        this.url = '//127.0.0.1:4000/api/machines';
     }
     getMachines() {
         return this.http.get(this.url);
